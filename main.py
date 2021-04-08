@@ -180,3 +180,6 @@ while True:
     elif choosingOpt == "exit" or choosingOpt == "Exit":
         print("GoodBye, Miner!")
         break
+        break
+        break
+        
