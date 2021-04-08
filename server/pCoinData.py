@@ -1,7 +1,7 @@
-coins1 = 2596
+coins1 = 0
 coins2 = 0
-haveacc = 2
-keypcoins = "qrrtTwRe"
-usrnam = "Grinder"
+haveacc = 0
+keypcoins = "No Key"
+usrnam = "Guest"
 minerrank = "Beginner"
-yaexp = 1250
+yaexp = 0
