@@ -79,7 +79,7 @@ while True:
                 slp(1)
                 print(f"{LGColor} [+]{WColor} Restarting...")
                 slp(5)
-                os.system("python /sdcard/PrabCoins/main.py")
+                os.system("python main.py")
                 
             else:
                 print(f"{LRColor}[!] No Option called {wantMkAcc}")
@@ -87,7 +87,7 @@ while True:
         elif haveacc == 1:
             inpusrnam = input(f"{LBColor} [•] Username >{WColor} ")
         
-            with open("/sdcard/PrabCoins/server/pCoinData.py", "w") as savingAcc:
+            with open("server/pCoinData.py", "w") as savingAcc:
                     savingAcc.write(f'coins1 = {coins1}' + '\n')
                     savingAcc.write(f'coins2 = {coins2}' + '\n')
                     savingAcc.write(f'haveacc = 2' + '\n')
@@ -143,7 +143,7 @@ while True:
                         yaexp += 25
                         print(f">{LYColor} Mined Block {blockMined} {LGColor}|{LYColor} Earned: {trueEarn1} {LGColor}|{LYColor} Ping: {LGColor}{truePing}ms {LGColor}|{LYColor} Balance: {coins2}.{coins1}")
                         
-                        with open("/sdcard/PrabCoins/server/pCoinData.py", "w") as savingCoins1:
+                        with open("server/pCoinData.py", "w") as savingCoins1:
                             savingCoins1.write(f'coins1 = {coins1}' + '\n')
                             savingCoins1.write(f'coins2 = {coins2}' + '\n')
                             savingCoins1.write(f'haveacc = {haveacc}' + '\n')
@@ -160,7 +160,7 @@ while True:
                         yaexp += 25
                         print(f">{LYColor} Mined Block {blockMined} {LGColor}|{LYColor} Earned: {trueEarn2} {LGColor}|{LYColor} Ping: {LRColor}{truePing}ms {LGColor}|{LYColor} Balance: {coins2}.{coins1}")
                         
-                        with open("/sdcard/PrabCoins/server/pCoinData.py", "w") as savingCoins2:
+                        with open("server/pCoinData.py", "w") as savingCoins2:
                             savingCoins2.write(f'coins1 = {coins1}' + '\n')
                             savingCoins2.write(f'coins2 = {coins2}' + '\n')
                             savingCoins2.write(f'haveacc = {haveacc}' + '\n')
