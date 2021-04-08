@@ -15,7 +15,7 @@ def GenerateKey():
     mixedKey = ip1 + ip2 + ip3 + ip4
     
     print(f"{Fore.LIGHTGREEN_EX} [+]{Fore.WHITE} Generated Key.")
-    with open("~/PrabCoins/server/pCoinData.py", "w") as savingKey:
+    with open("server/pCoinData.py", "w") as savingKey:
         savingKey.write('coins1 = 0' + '\n')
         savingKey.write('coins2 = 0' + '\n')
         savingKey.write('haveacc = 1' + '\n')
